@@ -62,9 +62,9 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            alexellis/derek:latest
-            alexellis/derek:${{ steps.get_tag.outputs.TAG }}
-            alexellis/derek:${{ github.sha }}
-            quay.io/alexellis/derek:latest
-            quay.io/alexellis/derek:${{ steps.get_tag.outputs.TAG }}
-            quay.io/alexellis/derek:${{ github.sha }}
+            ctadeu/derek:latest
+            ctadeu/derek:${{ steps.get_tag.outputs.TAG }}
+            ctadeu/derek:${{ github.sha }}
+            quay.io/cpanato/derek:latest
+            quay.io/cpanato/derek:${{ steps.get_tag.outputs.TAG }}
+            quay.io/cpanato/derek:${{ github.sha }}
